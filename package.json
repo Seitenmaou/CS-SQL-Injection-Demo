@@ -1,27 +1,25 @@
 {
-	"name": "frontend",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"body-parser": "1.15.0",
-		"errorhandler": "1.4.3",
-		"express": "4.13.4",
-		"sqlite3": "^5.0.2"
-	},
-	"scripts": {},
-	"eslintConfig": {
-		"extends": []
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	}
+  "name": "cs-sql-injection-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seitenmaou/CS-SQL-Injection-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seitenmaou/CS-SQL-Injection-Demo/issues"
+  },
+  "homepage": "https://github.com/Seitenmaou/CS-SQL-Injection-Demo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.11"
+  }
 }
